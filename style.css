@@ -1,0 +1,118 @@
+
+main {
+    border: 1px solid navy;
+    background-color: pink;
+  }
+  
+  header{
+    border: 2px solid black;
+    text-align: center;
+    font-family: Lucida Sans;
+    text-transform: uppercase;
+    background-color: pink;
+  }
+  
+  h1 {
+    color: navy;
+    text-transform: uppercase;
+  }
+  
+  .title {
+    color: teal;
+  }
+  
+  .begin {
+    text-align: center;
+  }
+  
+  .retake{
+    text-align: center;
+  }
+
+  .center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  h3 {
+    color: Navy;
+    background-color: yellow;
+    border-radius: 7px;
+    border-color: black;
+  }
+
+  h2.question {
+    font-size: 20px;
+    background-color: rgb(229, 225, 225);
+    text-align: center;
+    padding: 16px;
+    border-radius: 8px;
+    font-weight: normal;
+    line-height: 1.6;
+  }
+
+  .options {
+    display: grid;
+    grid-template-columns: lfr lfr;
+    gap: 16px;
+    margin-bottom: 20px;
+    background: peachpuff;
+    color: black;
+    
+  }
+
+  .question {
+    border: none;
+    padding: 24px 32px;
+    font-size: 18px;
+    background: navy;
+    color: white;
+  }
+
+  .next-Button {
+    float: right;
+  }
+
+  button {
+    cursor: pointer;
+  }
+  .digit {
+    text-align: center;
+  }
+
+  .disabled {
+    pointer-events: none;
+  }
+
+  .option.correct {
+    background-color: green;
+    color: black
+  }
+
+  .option.incorrect {
+    background-color: red;
+  }
+
+  .slideshow-container {
+    max-width: 500px;
+    position:relative;
+    margin:auto;
+  }
+
+  .mySlides {
+    display:none;
+  }
+
+  .fade {
+    animation: fade;
+    animation-duration: 1.5s;
+  }
+
+  footer{
+    border: 2px solid red;
+    text-align: center;
+    font-family: Helvetica;
+    background-color: gold;
+    color:black;
+  }

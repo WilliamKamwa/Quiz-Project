@@ -1,0 +1,83 @@
+
+main {
+    border: 1px solid navy;
+    background-color: pink;
+  }
+  
+  header{
+    border: 2px solid black;
+    text-align: center;
+    font-family: Lucida Sans;
+    text-transform: uppercase;
+    background-color: pink;
+  }
+  
+  h1 {
+    color: navy;
+    text-transform: uppercase;
+  }
+  
+  .title {
+    color: teal;
+  }
+   
+  .retake{
+    text-align: center;
+  }
+
+  .center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .options {
+    display: grid;
+    grid-template-columns: lfr lfr;
+    gap: 16px;
+    margin-bottom: 20px;
+    background: peachpuff;
+    color: black;
+    
+  }
+
+  .question {
+    border: none;
+    padding: 24px 32px;
+    font-size: 18px;
+    background: navy;
+    color: white;
+  }
+
+  .next-Button {
+    float: right;
+  }
+
+  button {
+    cursor: pointer;
+  }
+  
+  .digit {
+    text-align: center;
+  }
+
+  .disabled {
+    pointer-events: none;
+  }
+
+  .option.correct {
+    background-color: green;
+    color: black
+  }
+
+  .option.incorrect {
+    background-color: red;
+  }
+
+  footer{
+    border: 2px solid red;
+    text-align: center;
+    font-family: Helvetica;
+    background-color: gold;
+    color:black;
+  }
