@@ -65,15 +65,6 @@ main {
     pointer-events: none;
   }
 
-  .option.correct {
-    background-color: green;
-    color: black
-  }
-
-  .option.incorrect {
-    background-color: red;
-  }
-
   footer{
     border: 2px solid red;
     text-align: center;
@@ -81,3 +72,5 @@ main {
     background-color: gold;
     color:black;
   }
+
+  
